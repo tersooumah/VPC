@@ -12,9 +12,7 @@ Search for VPC on the search bar of the AWS console.
 Click on ‘create vpc’
 ![2](https://github.com/user-attachments/assets/55fe2313-1dc3-44bf-b7d4-6b1ef2ba32bf)
 
-Select VPC only
-Choose a name tag
-Input your starting IP
+Select VPC only, choose a name tag and input your starting IP
 ![3](https://github.com/user-attachments/assets/46453e3b-ff28-418c-9e2e-313aa6520f13)
 
 Click on ‘create VPC’
@@ -28,10 +26,9 @@ Under the VPC dashboard, click on ‘Subnet’ and click ‘create subnet’
 Select the VPC you just created
 ![7](https://github.com/user-attachments/assets/b33c4f6f-21bf-4d85-88dc-cff10df561fe)
 
-Choose your subnet name
-Select availability zone
-Select your IP address range with this ip address 10.0.0.0/24. (notice how we have 256 IPs available)
+Choose your subnet name, select availability zone and select your IP address range with this ip address: 10.0.0.0/24. (notice how we have 256 IPs available)
 ![8](https://github.com/user-attachments/assets/a59a7aae-71d2-4807-84f6-d065ace8c8e0)
+
 Click on ‘create subnet’
 ![9](https://github.com/user-attachments/assets/873cb588-ef57-4d37-952c-33d9044d1fb4)
  
@@ -58,14 +55,11 @@ The state is now shown attached.
 Under the VPC dashboard, click on ‘NAT Gateway’ and click ‘create NAT Gateway’
 ![15](https://github.com/user-attachments/assets/f3b80cb7-a7ca-4c92-9841-0a5b1a7f7a67)
 
-Choose your NAT Gateway name
-Select your subnet
-Make your connectivity Public
-Click on ‘Allocate Elastic IP’
-Click on ‘Create NAT Gateway’
+Choose your NAT Gateway name, select your subnet, make your connectivity 'Public', Click on ‘Allocate Elastic IP’ and click on ‘Create NAT Gateway’
 ![16](https://github.com/user-attachments/assets/a2a0cf86-42b8-4973-934f-74f40c3224a4)
 ![17](https://github.com/user-attachments/assets/dc666824-e91f-40a2-bb62-55ecc0dcab88)
 ![18](https://github.com/user-attachments/assets/091912bb-bca6-4805-9656-c67628a52a76)
+
 
 ## 2nd Method
 
@@ -75,18 +69,16 @@ Search for VPC on the search bar of the AWS console.
 Click on ‘Create VPC’
 ![2](https://github.com/user-attachments/assets/55fe2313-1dc3-44bf-b7d4-6b1ef2ba32bf)
 
-Select VPC and more
-Choose a name tag
-Input your starting IP
+Select VPC and more, choose a name tag and input your starting IP
 ![19](https://github.com/user-attachments/assets/db621653-59ce-47aa-a74b-6354ee074f23)
 
-Under ‘number of availability zones’, select 2
-Under ‘number of public subnets’, select 2
-Under ‘number of private subnets’, select 4
+Under ‘number of availability zones’, select 2.
+Under ‘number of public subnets’, select 2.
+Under ‘number of private subnets’, select 4.
 ![20](https://github.com/user-attachments/assets/dfc47cd7-bff4-436a-9930-566badfae205)
 
-Under NAT gateway, select ‘1 per AZ’
-Under endpoints, select S3 gateway
+Under NAT gateway, select ‘1 per AZ’.
+Under endpoints, select S3 gateway.
 Click on 'Create VPC’
 ![21](https://github.com/user-attachments/assets/3815f9e4-fa23-4cfd-8c35-d8e8bba7729a)
 ![22](https://github.com/user-attachments/assets/8ae71773-70fd-4d47-b394-72937b23ed0a)
